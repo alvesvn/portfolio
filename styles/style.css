@@ -1,5 +1,5 @@
 body {
-  background-color: #171717;
+  background-color: #000000;
   color: white;
   font-family: 'poppinsregular';
   margin: 0 auto;
@@ -19,7 +19,7 @@ html {
   align-items: center;
   background-color: #121212;
   border-bottom: 0.1px solid rgb(54, 53, 53);
-  margin-bottom: 110px;
+  margin-bottom: 90px;
 }
 
 * #title {
@@ -57,13 +57,15 @@ span {
   flex-direction: row;
   align-items: center;
   margin: 0 auto;
-  margin-bottom: 60px;
+  margin-bottom: 90px;
   padding: 25px;
 
 }
 
 .conteudo-principal-escrito-titulo {
   font-size: 60px;
+  align-items: center;
+  justify-items: center;
   font-family: 'poppinsmedium';
   font-weight: 5;
 }
@@ -107,7 +109,7 @@ span {
   justify-content: center;
   align-items: center;
   image-resolution: unset;
-  width: 350px;
+  width: 400px;
 }
 
 .imagem-conteudo-principal {
@@ -240,11 +242,6 @@ span {
   padding: 5px;
 }
 
-
-.conteudo-terciario-localizacao {
-  display: flex;
-}
-
 .conteudo-terciario-contatos {
   display: flex;
   align-items: center;
@@ -254,25 +251,19 @@ span {
 }
 
 .conteudo-terciario-contatos-localizacao {
-  background-color: #121212;
-  color: #ffffff;
-  font-weight: 20px;
-  font-family: 'poppinsregular';
-  font-size: 20px;
-  padding: 120px;
+  width: 50px;
+  background-color: white;
+  padding: 100px;
   border-radius: 10px;
 }
 
 .conteudo-terciario-contatos-email {
-  background-color: #121212;
-  color: #ffffff;
-  font-weight: 20px;
-  font-family: 'poppinsregular';
-  font-size: 20px;
-  padding: 120px;
+  width: 50px;
+  background-color: white;
+  padding: 100px;
   border-radius: 10px;
-
 }
+
 
 
 footer {
